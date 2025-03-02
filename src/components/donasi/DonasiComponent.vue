@@ -20,7 +20,7 @@
           <img class="foto" src="https://imgur.com/OplOlp2.jpg" alt="mbah">
           <h3 class="judul-card">Kakek belum makan</h3>
           <div class="center">
-            <p>Kakek belum makan pizza 5 hari nak, duit kakek habis buat slot sama judol. tolong bantu kakek makan pizza lagi nak (kalo kakek menang, kakek ciprat kok)</p>
+            <p>Kakek belum makan pizza 5 hari nak, duit kakek habis buat slot sama judol. tolong bantu kakek makan pizza lagi nak</p>
           </div>
           <div class="foot">
             <a class="cta" href="#" target="_blank" rel="nofollow noopener">Donasi</a>
@@ -32,7 +32,7 @@
       <div class="donasi-card">
         <div class="inner">
           <img class="foto" src="https://imgur.com/2QwNDpz.jpg" alt="robby">
-          <h3 class="judul-card">Sakit banget rasanya</h3>
+          <h3 class="judul-card">Sangat sakit rasanya</h3>
           <div class="center">
             <p>Nama saya Robby, aku saat ini menderita kanker paru stadium 6 sejak masuk kelas 7 smp, (inget temen2 jangan pernah ngisep senior)</p>
           </div>
@@ -46,7 +46,7 @@
       <div class="donasi-card">
         <div class="inner">
           <img class="foto" src="https://imgur.com/fhZrWhR.jpg" alt="josh">
-          <h3 class="judul-card">Otak saya sudah ga berfungsi 90%</h3>
+          <h3 class="judul-card">Otak saya sudah mati</h3>
           <div class="center">
             <p>otak saya sudah tidak bisa dipakai lagi dikarenakan kecanduan pornografi, tolong bantu saya dalam mengumpulkan dana untuk operasi saya</p>
           </div>
@@ -102,9 +102,9 @@
       <div class="donasi-card">
         <div class="inner">
           <img class="foto" src="https://imgur.com/wP1Obf8.jpg" alt="robit">
-          <h3 class="judul-card">Penyakit mulut yang susah disembuhkan</h3>
+          <h3 class="judul-card">Kanker mulut</h3>
           <div class="center">
-            <p>Kakek belum makan pizza 5 hari nak, duit kakek habis buat slot sama judol. tolong bantu kakek makan pizza lagi nak (kalo kakek menang, kakek ciprat kok)</p>
+            <p>Saya dari smp sudah merokok dan sekarang harus menerima akibatnya, Tolong bantu saya dalam mengumpulkan dana untuk operasi saya</p>
           </div>
           <div class="foot">
             <a class="cta" href="#" target="_blank" rel="nofollow noopener">Donasi</a>
@@ -123,7 +123,7 @@
 .badan {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 20px;
   padding: 40px;
   max-width: 100%;
