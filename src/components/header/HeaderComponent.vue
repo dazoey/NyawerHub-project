@@ -1,5 +1,5 @@
 <script setup>
-import SearchComponent from '../search/SearchComponent.vue';
+
 import { onMounted, onUnmounted } from 'vue';
 
 const handleScroll = () => {
@@ -26,9 +26,7 @@ onUnmounted(() => {
       <div class="logo-container">
         <img class="logo" src="https://imgur.com/Nljv9t8.png" alt="logoNyawerHub" height="30">
       </div>
-      <div class="search-container">
-        <SearchComponent class="search-component" />
-      </div>
+
       <ul class="menu">
         <li><a href="App.vue">Home</a></li>
         <li><a href="#">About</a></li>
@@ -41,7 +39,7 @@ onUnmounted(() => {
 <style>
 
 .navbar {
-  position: fixed; 
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
