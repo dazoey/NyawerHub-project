@@ -26,11 +26,13 @@ import DonasiComponent from '../donasi/DonasiComponent.vue';
   font-style: italic;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+  color: rgb(214, 214, 214);
 }
 
 .deskripsi{
   font-weight: lighter;
   font-size: 20px;
+  color: rgb(214, 214, 214);
 }
 
 .donasi{
