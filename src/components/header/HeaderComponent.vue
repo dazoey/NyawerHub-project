@@ -28,7 +28,7 @@ onUnmounted(() => {
       </div>
 
       <ul class="menu">
-        <li><a href="App.vue">Home</a></li>
+        <li><router-link to="/homeview">Home</router-link></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
