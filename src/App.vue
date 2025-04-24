@@ -1,32 +1,35 @@
-<script setup>
-import { onMounted } from 'vue'
-import HeaderComponent from './components/header/HeaderComponent.vue'
-import BodyComponent from './components/body/BodyComponent.vue'
-
-onMounted(() => {
-  document.title = 'NyawerHub'
-  let link = document.querySelector("link[rel~='icon']")
-  if (!link) {
-    link = document.createElement('link')
-    link.rel = 'icon'
-    document.head.appendChild(link)
-  }
-  link.href = 'https://imgur.com/aQrDZCJ.png'
-})
+<script>
+export default {
+  name: 'App'
+}
 </script>
 
 <template>
-  
-  <header>
-  <HeaderComponent>
-  </HeaderComponent>
-  </header >
-
-  <main>
-    <div>
-      <BodyComponent></BodyComponent>
-    </div>
-  </main>
+  <div id="app">
+    <router-view/>
+  </div>
 </template>
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  color: #333;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+</style>
