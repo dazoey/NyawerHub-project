@@ -10,11 +10,6 @@ const routes = [
 
   },
   {
-    path: '/charity',
-    name: 'Charity',
-    component: CharityPage
-  },
-  {
     path: '/homeview',
     name: 'HomeView',
     component: HomeView
