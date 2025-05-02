@@ -1,5 +1,11 @@
-<script setup>
+<script >
 import DonasiComponent from '../donasi/DonasiComponent.vue';
+export default {
+  name: 'BodyComponent',
+  components: {
+    DonasiComponent
+  }
+};
 </script>
 
 <template>
