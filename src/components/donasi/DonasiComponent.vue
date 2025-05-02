@@ -1,3 +1,10 @@
+<script>
+
+export default {
+  name: 'DonasiComponent'
+}
+
+</script>
 <template>
   <ul class="badan">
     <li>
