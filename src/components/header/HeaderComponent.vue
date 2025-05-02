@@ -1,24 +1,25 @@
-<script setup>
-
-import { onMounted, onUnmounted } from 'vue';
-
-const handleScroll = () => {
-  const navbar = document.querySelector('.navbar');
-  if (window.scrollY > 100) {
-    navbar.classList.add('animate');
-  } else {
-    navbar.classList.remove('animate');
+<script>
+export default {
+  name: 'HeaderComponent',
+  methods: {
+    handleScroll() {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 100) {
+        navbar.classList.add('animate');
+      } else {
+        navbar.classList.remove('animate');
+      }
+    }
+  },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  beforeUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
   }
-};
-
-onMounted(() => {
-  window.addEventListener('scroll', handleScroll);
-});
-
-onUnmounted(() => {
-  window.removeEventListener('scroll', handleScroll);
-});
+}
 </script>
+
 
 <template>
   <nav class="navbar navbar-default navbar-fixed-top">
