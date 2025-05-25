@@ -131,7 +131,7 @@ export default {
 
 .page-title {
   text-align: center;
-  color: #2c8c43;
+  color: #5f803d;
   margin-bottom: 20px;
   font-size: 24px;
 }
