@@ -1,9 +1,11 @@
 <script >
 import DonasiComponent from '../donasi/DonasiComponent.vue';
+import FooterComponent from '../footer/FooterComponent.vue';
 export default {
   name: 'BodyComponent',
   components: {
-    DonasiComponent
+    DonasiComponent,
+    FooterComponent
   }
 };
 </script>
@@ -18,6 +20,9 @@ export default {
 
   <div>
     <DonasiComponent class="donasi"/>
+  </div>
+  <div>
+    <FooterComponent/>
   </div>
 </template>
 
