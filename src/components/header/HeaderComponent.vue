@@ -88,12 +88,12 @@ export default {
 
 .menu li a {
   text-decoration: none;
-  color: rgb(104, 173, 67);
+  color: #5f803d;
 }
 
 .animate {
   padding: 10px 10px;
-  background-color: #f8f8f8;
+  background-color: #ffffff;
   transition: all ease 0.4s;
 }
 </style>
