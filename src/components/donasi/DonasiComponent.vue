@@ -16,7 +16,7 @@ export default {
             <p>Beliau saat ini menderita alzeimer dikarenakan beliau sempat dibully oleh teman-temannya saat bermain mobile legend menggunakan hanabi item sky piercer</p>
           </div>
           <div class="foot">
-            <a class="cta" href="#" target="_blank" rel="nofollow noopener">Donasi</a>
+            <router-link to="/charity" class="cta">Donasi</router-link>
           </div>
         </div>
       </div>
@@ -30,7 +30,7 @@ export default {
             <p>Kakek belum makan pizza 5 hari nak, duit kakek habis buat slot sama judol. tolong bantu kakek makan pizza lagi nak</p>
           </div>
           <div class="foot">
-            <a class="cta" href="#" target="_blank" rel="nofollow noopener">Donasi</a>
+            <router-link to="/charity" class="cta">Donasi</router-link>
           </div>
         </div>
       </div>
@@ -44,7 +44,7 @@ export default {
             <p>Nama saya Robby, aku saat ini menderita kanker paru stadium 6 sejak masuk kelas 7 smp, (inget temen2 jangan pernah ngisep senior)</p>
           </div>
           <div class="foot">
-            <a class="cta" href="#" target="_blank" rel="nofollow noopener">Donasi</a>
+            <router-link to="/charity" class="cta">Donasi</router-link>
           </div>
         </div>
       </div>
@@ -58,7 +58,7 @@ export default {
             <p>otak saya sudah tidak bisa dipakai lagi dikarenakan kecanduan pornografi, tolong bantu saya dalam mengumpulkan dana untuk operasi saya</p>
           </div>
           <div class="foot">
-            <a class="cta" href="#" target="_blank" rel="nofollow noopener">Donasi</a>
+            <router-link to="/charity" class="cta">Donasi</router-link>
           </div>
         </div>
       </div>
@@ -72,7 +72,7 @@ export default {
             <p>Saya dari kecil sudah hidup mandiri dan tidak sekolah, untuk bertahan hidup saya harus mangkal di lampu merah menjadi manusia silver, tolong bantu saya agar saya bisa sekolah lagi </p>
           </div>
           <div class="foot">
-            <a class="cta" href="#" target="_blank" rel="nofollow noopener">Donasi</a>
+            <router-link to="/charity" class="cta">Donasi</router-link>
           </div>
         </div>
       </div>
@@ -86,7 +86,7 @@ export default {
             <p>Dahulu saya sempat cidera di kepala saat tawuran antar sekolah dan saat ini saya butuh dana untuk mendapatkan perawatan disaat saya koma seperti saat ini</p>
           </div>
           <div class="foot">
-            <a class="cta" href="#" target="_blank" rel="nofollow noopener">Donasi</a>
+            <router-link to="/charity" class="cta">Donasi</router-link>
           </div>
         </div>
       </div>
@@ -100,7 +100,7 @@ export default {
             <p>sudah 10 tahun saya suka makan makanan kotor dan saat ini saya mengidap obesitas dan diabetes diumur 20 tahun</p>
           </div>
           <div class="foot">
-            <a class="cta" href="#" target="_blank" rel="nofollow noopener">Donasi</a>
+            <router-link to="/charity" class="cta">Donasi</router-link>
           </div>
         </div>
       </div>
@@ -114,7 +114,7 @@ export default {
             <p>Saya dari smp sudah merokok dan sekarang harus menerima akibatnya, Tolong bantu saya dalam mengumpulkan dana untuk operasi saya</p>
           </div>
           <div class="foot">
-            <a class="cta" href="#" target="_blank" rel="nofollow noopener">Donasi</a>
+            <router-link to="/charity" class="cta">Donasi</router-link>
           </div>
         </div>
       </div>
@@ -200,7 +200,7 @@ export default {
 .foot {
   margin-top: auto;
   padding: 12px;
-  background-color: #68ad43;
+  background-color: #5f803d;
   border-radius: 8px;
   width: 100%;
 }
