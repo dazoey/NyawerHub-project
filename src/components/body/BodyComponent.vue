@@ -13,9 +13,7 @@ export default {
 <template>
   <div class="container-atas">
     <p class="judul">Ayo bantu mereka mendapatkan hidup yang lebih baik</p>
-    <p class="deskripsi">
-      NyawerHub adalah platform donasi digital yang aman, transparan, dan mudah digunakan, memungkinkan siapa saja berdonasi untuk berbagai kampanye sosial dengan metode pembayaran fleksibel. Dengan desain responsif, laporan berkala, dan keamanan data tinggi, NyawerHub mempermudah berbagi kebaikan secara cepat dan terpercaya.
-    </p>
+    <p class="deskripsi"> NyawerHub adalah platform donasi digital yang aman, transparan, dan mudah digunakan, memungkinkan siapa saja berdonasi untuk berbagai kampanye sosial dengan metode pembayaran fleksibel. Dengan desain responsif, laporan berkala, dan keamanan data tinggi, NyawerHub mempermudah berbagi kebaikan secara cepat dan terpercaya.</p>
   </div>
 
   <div>
