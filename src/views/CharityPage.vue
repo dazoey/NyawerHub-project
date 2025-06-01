@@ -62,57 +62,36 @@ export default {
       <h2 class="section-title">Pilih Jumlah Donasi</h2>
       <div class="amount-buttons">
         <button
-          v-for="amount in predefinedAmounts"
-          :key="amount"
-          @click="selectAmount(amount)"
-          :class="{ 'selected': selectedAmount === amount }"
-        >
-          Rp {{ amount.toLocaleString() }}
+          v-for="amount in predefinedAmounts" :key="amount"
+          @click="selectAmount(amount)" :class="{ 'selected': selectedAmount === amount }"
+        >Rp {{ amount.toLocaleString() }}
         </button>
-        <input
-          type="number" v-model="customAmount" @input="selectCustomAmount" placeholder="Lainnya" class="custom-amount-input" />
+        <input type="number" v-model="customAmount" @input="selectCustomAmount" placeholder="Lainnya" class="custom-amount-input" />
       </div>
     </div>
 
     <form @submit.prevent="submitDonation" class="donation-form">
       <div class="form-group">
         <label>Nama Lengkap</label>
-        <input
-          type="text"
-          v-model="donorName"
-          required
-        />
+        <input type="text" v-model="donorName" required/>
       </div>
 
       <div class="form-group">
         <label>Email</label>
-        <input
-          type="email"
-          v-model="donorEmail"
-          required
-        />
+        <input type="email" v-model="donorEmail" required/>
       </div>
 
       <div class="form-group">
         <label>Metode Pembayaran</label>
-        <select
-          v-model="paymentMethod"
-        >
+        <select v-model="paymentMethod">
           <option value="">Pilih Metode Pembayaran</option>
-          <option value="transfer">Transfer Bank</option>
           <option value="gopay">GoPay</option>
           <option value="dana">DANA</option>
           <option value="ovo">OVO</option>
         </select>
       </div>
 
-      <button
-        type="submit"
-        :disabled="!isFormValid"
-        class="submit-button"
-      >
-        Lanjutkan Donasi
-      </button>
+      <button type="submit" :disabled="!isFormValid" class="submit-button">Lanjutkan Donasi</button>
     </form>
   </div>
 </template>
