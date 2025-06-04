@@ -10,10 +10,10 @@ export default {
     <li>
       <div class="donasi-card">
         <div class="inner">
-          <img class="foto" src="https://imgur.com/NV9aueK.jpg" alt="jibran">
-          <h3 class="judul-card">Beliau adalah jibran</h3>
+          <img class="foto" src="https://imgur.com/tBdEeRW.jpg" alt="Surya">
+          <h3 class="judul-card">Surya Penjual Gorengan</h3>
           <div class="center">
-            <p>Beliau saat ini menderita alzeimer dikarenakan beliau sempat dibully oleh teman-temannya saat bermain mobile legend menggunakan hanabi item sky piercer</p>
+            <p>seorang anak yatim piatu berusia 13 tahun, mengandalkan penghasilan dari menjual gorengan di lampu merah. Penghasilannya tak menentu, sementara ia harus menghidupi dua adiknya. Bantuan Anda sangat berarti untuk kebutuhan harian mereka.</p>
           </div>
           <div class="foot">
             <router-link to="/charity" class="cta">Donasi</router-link>
@@ -24,10 +24,10 @@ export default {
     <li>
       <div class="donasi-card">
         <div class="inner">
-          <img class="foto" src="https://imgur.com/OplOlp2.jpg" alt="mbah">
-          <h3 class="judul-card">Kakek belum makan</h3>
+          <img class="foto" src="https://imgur.com/d8N6ymC.jpg" alt="BuMarni">
+          <h3 class="judul-card">Penjual Jamu Rumahan</h3>
           <div class="center">
-            <p>Kakek belum makan pizza 5 hari nak, duit kakek habis buat slot sama judol. tolong bantu kakek makan pizza lagi nak</p>
+            <p>Bu Marni hidup di rumah semi permanen dan bekerja sebagai penjual jamu dengan pesanan yang jarang datang. Ia kesulitan membeli bahan makanan dan obat untuk penyakit asam lambung yang dideritanya. Donasi Anda bisa meringankan beban hidupnya.</p>
           </div>
           <div class="foot">
             <router-link to="/charity" class="cta">Donasi</router-link>
@@ -38,10 +38,10 @@ export default {
     <li>
       <div class="donasi-card">
         <div class="inner">
-          <img class="foto" src="https://imgur.com/2QwNDpz.jpg" alt="robby">
-          <h3 class="judul-card">Sangat sakit rasanya</h3>
+          <img class="foto" src="https://imgur.com/xq84A4v.jpg" alt="Doni">
+          <h3 class="judul-card">Anak Pekerja Serabutan</h3>
           <div class="center">
-            <p>Nama saya Robby, aku saat ini menderita kanker paru stadium 6 sejak masuk kelas 7 smp, (inget temen2 jangan pernah ngisep senior)</p>
+            <p>Doni, usia 12 tahun, tinggal bersama ayahnya yang bekerja serabutan. Ia terancam putus sekolah karena keterbatasan biaya. Donasi Anda dapat membantunya tetap bersekolah dan meraih cita-citanya sebagai guru.</p>
           </div>
           <div class="foot">
             <router-link to="/charity" class="cta">Donasi</router-link>
@@ -52,10 +52,10 @@ export default {
     <li>
       <div class="donasi-card">
         <div class="inner">
-          <img class="foto" src="https://imgur.com/fhZrWhR.jpg" alt="josh">
-          <h3 class="judul-card">Otak saya sudah mati</h3>
+          <img class="foto" src="https://imgur.com/NFkhH6h.jpg" alt="Kakek Mahmud">
+          <h3 class="judul-card">Pemulung Lansia</h3>
           <div class="center">
-            <p>otak saya sudah tidak bisa dipakai lagi dikarenakan kecanduan pornografi, tolong bantu saya dalam mengumpulkan dana untuk operasi saya</p>
+            <p>Kakek Mahmud berusia 74 tahun masih harus memulung setiap hari untuk membeli makan. Ia hidup sebatang kara tanpa keluarga yang mendampingi. Sedikit bantuan dari Anda bisa memberi kakek kehidupan yang lebih layak.</p>
           </div>
           <div class="foot">
             <router-link to="/charity" class="cta">Donasi</router-link>
@@ -66,10 +66,10 @@ export default {
     <li>
       <div class="donasi-card">
         <div class="inner">
-          <img class="foto" src="https://imgur.com/QQC4owS.jpg" alt="faiq">
-          <h3 class="judul-card">Manusia silver</h3>
+          <img class="foto" src="https://imgur.com/sxv00wY.jpg" alt="Bu sri">
+          <h3 class="judul-card">Ibu Rumah Tangga Sakit</h3>
           <div class="center">
-            <p>Saya dari kecil sudah hidup mandiri dan tidak sekolah, untuk bertahan hidup saya harus mangkal di lampu merah menjadi manusia silver, tolong bantu saya agar saya bisa sekolah lagi </p>
+            <p>Bu Sri menderita stroke ringan dan tak mampu bekerja. Suaminya baru saja di-PHK, dan kini mereka kesulitan memenuhi kebutuhan pokok. Dukungan Anda akan sangat membantu proses pemulihan dan keberlangsungan hidup mereka.</p>
           </div>
           <div class="foot">
             <router-link to="/charity" class="cta">Donasi</router-link>
@@ -80,10 +80,10 @@ export default {
     <li>
       <div class="donasi-card">
         <div class="inner">
-          <img class="foto" src="https://imgur.com/bZK7gF4.jpg" alt="elang">
-          <h3 class="judul-card">Koma selama 15 tahun</h3>
+          <img class="foto" src="https://imgur.com/qGQcBG9.jpg" alt="Rina">
+          <h3 class="judul-card">Yatim Piatu Pejuan Sekolah</h3>
           <div class="center">
-            <p>Dahulu saya sempat cidera di kepala saat tawuran antar sekolah dan saat ini saya butuh dana untuk mendapatkan perawatan disaat saya koma seperti saat ini</p>
+            <p>Rina, 16 tahun, kehilangan kedua orang tuanya akibat kecelakaan. Ia tinggal bersama neneknya yang sudah renta. Semangat belajarnya tinggi, namun biaya sekolah jadi beban. Mari bantu Rina tetap bersekolah dan mengejar impiannya.</p>
           </div>
           <div class="foot">
             <router-link to="/charity" class="cta">Donasi</router-link>
@@ -94,10 +94,10 @@ export default {
     <li>
       <div class="donasi-card">
         <div class="inner">
-          <img class="foto" src="https://imgur.com/d40ZAjf.jpg" alt="bintangGendut">
-          <h3 class="judul-card">Obesitas dan Diabetes</h3>
+          <img class="foto" src="https://imgur.com/ZvThTJo.jpg" alt="Bu Imah">
+          <h3 class="judul-card">Penjual Kue Keliling</h3>
           <div class="center">
-            <p>sudah 10 tahun saya suka makan makanan kotor dan saat ini saya mengidap obesitas dan diabetes diumur 20 tahun</p>
+            <p>Bu Imah menjual kue keliling dari pagi hingga sore dengan penghasilan yang minim. Ia berjuang menghidupi tiga anaknya yang masih kecil. Bantuan Anda akan sangat berarti untuk keberlangsungan pendidikan dan kebutuhan sehari-hari mereka.</p>
           </div>
           <div class="foot">
             <router-link to="/charity" class="cta">Donasi</router-link>
@@ -108,10 +108,10 @@ export default {
     <li>
       <div class="donasi-card">
         <div class="inner">
-          <img class="foto" src="https://imgur.com/wP1Obf8.jpg" alt="robit">
-          <h3 class="judul-card">Kanker mulut</h3>
+          <img class="foto" src="https://imgur.com/wP1Obf8.jpg" alt="Rudi">
+          <h3 class="judul-card">Difabel Penjual Pulsa</h3>
           <div class="center">
-            <p>Saya dari smp sudah merokok dan sekarang harus menerima akibatnya, Tolong bantu saya dalam mengumpulkan dana untuk operasi saya</p>
+            <p>Pak Rudi kehilangan fungsi kakiknya akibat kecelakaan dan kini berjualan pulsa keliling dengan kursi roda. Meski keterbatasan fisik, ia tetap berjuang untuk hidup mandiri. Dukungan Anda bisa memberinya harapan dan kehidupan yang lebih layak.</p>
           </div>
           <div class="foot">
             <router-link to="/charity" class="cta">Donasi</router-link>
