@@ -1,56 +1,63 @@
-<script>
-export default {
-  name: 'FooterComponent',
-  data() {
-    return {
-      socialIcons: [
-        { label: 'ig', link: '#' }
-      ],
-      footerMenus: [
-        {
-          title: 'Perusahaan',
-          links: [
-            { text: 'Tentang Kami', url: '#' },
-            { text: 'Cara Kerja', url: '#' },
-            { text: 'Kontak', url: '#' }
-          ]
-        },
-        {
-          title: 'Kontak',
-          links: [
-            { text: '1234567890', url: 'tel:123456789' },
-            { text: 'Jl. Prof. Soedarto, Tembalang, Kec. Tembalang, Kota Semarang, Jawa Tengah 50275', url: 'https://maps.app.goo.gl/8eq3yDWTKb6ZjvDG9' }
-          ]
-        }
-      ]
-    }
+<script setup>
+const socialIcons = [
+  { icon: 'ig', link: 'https://www.instagram.com/athayarifky__/?utm_source=ig_web_button_share_sheet' }
+]
+
+const footerMenus = [
+  {
+    title: 'Perusahaan',
+    links: [
+      { text: 'Tentang Kami', url: '#' },
+      { text: 'Cara Kerja', url: '#' },
+      { text: 'Kontak', url: '#' }
+    ]
+  },
+  {
+    title: 'Kontak',
+    links: [
+      { text: '1234567890', url: 'tel:123456789' },
+      { text: 'Jl. Prof. Soedarto, Tembalang, Kota Semarang', url: 'https://maps.app.goo.gl/8eq3yDWTKb6ZjvDG9' }
+    ]
   }
-}
+]
 </script>
 
 <template>
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">
-        <div>
-          <div class="footer-logo">Nya<span>werHub</span></div>
-          <p class="footer-about">Platform inovatif yang menghubungkan surplus makanan dengan mereka yang membutuhkan, mengurangi limbah makanan dan memerangi kelaparan.</p>
-          <div class="social-icons">
-            <a v-for="(icon, index) in socialIcons" :key="index" :href="icon.link" class="social-icon">{{ icon.label }}</a>
+        <div class="brand-section">
+          <h1 class="logo">Nya<span>werHub</span></h1>
+          <p class="about">
+            NyawerHub adalah platform donasi digital yang didedikasikan untuk membantu masyarakat kurang mampu melalui dukungan langsung dari para dermawan. Dengan sistem yang transparan dan mudah digunakan, NyawerHub menjadi jembatan antara para donatur dan mereka yang benar-benar membutuhkan, mulai dari lansia, anak yatim, hingga keluarga prasejahtera di berbagai daerah.
+          </p>
+          <div class="socials">
+            <a
+              v-for="(social, i) in socialIcons"
+              :key="i"
+              :href="social.link"
+              class="social-icon"
+            >
+              {{ social.icon }}
+            </a>
           </div>
         </div>
 
-        <div v-for="(menu, index) in footerMenus" :key="index">
-          <h3 class="footer-title">{{ menu.title }}</h3>
-          <ul class="footer-links">
-            <li v-for="(link, linkIndex) in menu.links" :key="linkIndex">
+        <div
+          v-for="(menu, i) in footerMenus"
+          :key="i"
+          class="menu-section"
+        >
+          <h3 class="menu-title">{{ menu.title }}</h3>
+          <ul class="links">
+            <li v-for="(link, j) in menu.links" :key="j">
               <a :href="link.url">{{ link.text }}</a>
             </li>
           </ul>
         </div>
       </div>
 
-      <div class="footer-bottom">
+      <div class="copyright">
         <p>&copy; {{ new Date().getFullYear() }} NyawerHub. Hak Cipta Dilindungi.</p>
       </div>
     </div>
@@ -59,100 +66,102 @@ export default {
 
 <style scoped>
 .footer {
-  background-color: #FFFDF6;
+  background: #FFFDF6;
   color: #0f2046;
-  padding: 60px 0 30px;
+  padding: 4rem 0 2rem;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
-  gap: 40px;
-  margin-bottom: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
-.footer-logo {
-  font-family: 'Nunito', sans-serif;
-  font-size: 1.8rem;
-  font-weight: 700;
+.brand-section {
+  grid-column: 1 / -1;
+}
+
+.logo {
+  font: 700 1.8rem/1 'Nunito', sans-serif;
   color: #5f803d;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
 }
 
-.footer-logo span {
+.logo span {
   color: #0f2046;
 }
 
-.footer-about {
-  color: #0f2046;
+.about {
+  max-width: 45ch;
   line-height: 1.6;
-  max-width: 300px;
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
 }
 
-.social-icons {
+.socials {
   display: flex;
-  gap: 15px;
+  gap: 0.8rem;
 }
 
 .social-icon {
-  width: 40px;
-  height: 40px;
-  background-color: rgba(255, 255, 255, 0.1);
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #0f2046;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
+  background: rgba(95, 128, 61, 0.1);
+  transition: all 0.3s ease;
 }
 
 .social-icon:hover {
-  background-color: #5f803d;
+  background: #5f803d;
+  color: white;
 }
 
-.footer-title {
+.menu-title {
   font-size: 1.2rem;
-  margin-bottom: 20px;
-  color: #0f2046;
+  margin-bottom: 1.25rem;
 }
 
-.footer-links {
+.links {
   list-style: none;
+  padding: 0;
 }
 
-.footer-links li {
-  margin-bottom: 10px;
+.links li:not(:last-child) {
+  margin-bottom: 0.6rem;
 }
 
-.footer-links a {
-  color: #0f2046;
+.links a {
+  color: inherit;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
-.footer-links a:hover {
+.links a:hover {
   color: #5f803d;
 }
 
-.footer-bottom {
-  padding-top: 30px;
-  border-top: 1px solid rgba(43, 42, 42, 0.1);
+.copyright {
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(15, 32, 70, 0.1);
   text-align: center;
-  color: #0f2046;
   font-size: 0.9rem;
 }
 
-@media (max-width: 992px) {
-  .footer-grid {
-    grid-template-columns: 1fr 1fr;
+@media (min-width: 768px) {
+  .brand-section {
+    grid-column: auto;
   }
-}
 
-@media (max-width: 576px) {
   .footer-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr repeat(2, 1fr);
   }
 }
 </style>
