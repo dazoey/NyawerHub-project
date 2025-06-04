@@ -9,6 +9,12 @@ export default {
       } else {
         navbar.classList.remove('animate');
       }
+    },
+    scrollToFooter() {
+      const footerSection = document.getElementById('footer-section');
+      if (footerSection) {
+        footerSection.scrollIntoView({ behavior: 'smooth' });
+      }
     }
   },
   mounted() {
@@ -20,7 +26,6 @@ export default {
 }
 </script>
 
-
 <template>
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="navbar-header">
@@ -30,15 +35,14 @@ export default {
 
       <ul class="menu">
         <li><router-link to="/homeview">Home</router-link></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><button class="experience-button" @click="scrollToFooter">About</button></li>
+        <li><button class="experience-button" @click="scrollToFooter">Contact</button></li>
       </ul>
     </div>
   </nav>
 </template>
 
-<style>
-
+<style scoped>
 .navbar {
   position: fixed;
   top: 0;
@@ -89,6 +93,20 @@ export default {
 .menu li a {
   text-decoration: none;
   color: #5f803d;
+}
+
+.experience-button {
+  background: none;
+  border: none;
+  color: #5f803d;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: none;
+}
+
+.experience-button:hover {
+  text-decoration: underline;
 }
 
 .animate {
