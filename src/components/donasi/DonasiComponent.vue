@@ -108,7 +108,7 @@ export default {
     <li>
       <div class="donasi-card">
         <div class="inner">
-          <img class="foto" src="https://imgur.com/wP1Obf8.jpg" alt="Rudi">
+          <img class="foto" src="https://imgur.com/F99KaDE.jpg" alt="Rudi">
           <h3 class="judul-card">Difabel Penjual Pulsa</h3>
           <div class="center">
             <p>Pak Rudi kehilangan fungsi kakiknya akibat kecelakaan dan kini berjualan pulsa keliling dengan kursi roda. Meski keterbatasan fisik, ia tetap berjuang untuk hidup mandiri. Dukungan Anda bisa memberinya harapan dan kehidupan yang lebih layak.</p>
