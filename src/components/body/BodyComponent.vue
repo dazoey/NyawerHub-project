@@ -19,7 +19,7 @@ export default {
   <div>
     <DonasiComponent class="donasi"/>
   </div>
-  <div>
+  <div id="footer-section">
     <FooterComponent/>
   </div>
 </template>
