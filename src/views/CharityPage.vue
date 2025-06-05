@@ -164,7 +164,7 @@ const resetForm = () => {
 <style scoped>
 .donation-container {
   max-width: 500px;
-  margin: 2rem auto;
+  margin: 5rem auto;
   padding: 0 1rem;
 }
 
